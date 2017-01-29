@@ -46,3 +46,10 @@ complete -W "NSGlobalDomain" defaults;
 
 # Add `killall` tab completion for common apps
 complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
+
+export PATH="$HOME/.jenv/bin/:$PATH"
+export JENV_ROOT=/usr/local/opt/jenv
+
+export PATH="/usr/local/bin:$PATH"
+
+eval "$(jenv init -)"

@@ -100,6 +100,8 @@ brew install tree
 brew install vbindiff
 brew install webkit2png
 brew install zopfli
+brew install maven
+brew install jenv
 
 # Remove outdated versions from the cellar.
 brew cleanup
